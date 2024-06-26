@@ -1,0 +1,3 @@
+PASTE THIS COMMAND ON START COMMAND IN RENDER.COM
+
+gunicorn --bind "0.0.0.0:$PORT" "app:create_app()"
