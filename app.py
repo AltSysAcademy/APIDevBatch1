@@ -74,6 +74,8 @@ def create_app(db_url=None):
             401
         )
     
+    # ADDED THIS COMMENT
+
     @jwt.invalid_token_loader
     def invalid_token_callback(error):
         return (
