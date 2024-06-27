@@ -7,3 +7,4 @@ passlib
 python-dotenv
 gunicorn
 psycopg2
+requests
